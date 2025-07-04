@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Importing the dataset
-dataset = pd.read_csv(r"C:\Users\A3MAX SOFTWARE TECH\Desktop\WORK\1. KODI WORK\1. NARESH\2. EVENING BATCH\N_Batch -- 7.00PM -- JUL25\4. APR\23rd,24th  - Clustering,\2.K-MEANS CLUSTERING\Mall_Customers.csv")
+dataset = pd.read_csv(r"C:\Users\Shruti Gajre\OneDrive\Desktop\DS_COURSE\2.K-MEANS CLUSTERING\2.K-MEANS CLUSTERING\Mall_Customers.csv")
 X = dataset.iloc[:, [3, 4]].values
 
 # Using the elbow method to find the optimal number of clusters
